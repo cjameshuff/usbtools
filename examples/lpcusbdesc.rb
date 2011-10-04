@@ -18,7 +18,6 @@ devdesc = Descriptor.new(USB_DEVICE_DESCRIPTOR) {
 }
 
 confdesc = Descriptor.new(USB_CONFIGURATION_DESCRIPTOR) {
-    wTotalLength  0x42# FIXME
     bNumInterfaces  2
     bConfigurationValue  1
     iConfiguration  0x00
