@@ -2,6 +2,8 @@
 
 load('genusbdesc.rb')
 
+NXP_VID = 0x1FC9
+
 devdesc = Descriptor.new(USB_DEVICE_DESCRIPTOR) {
     bcdUSB 0x0200
     bDeviceClass 0xFF
